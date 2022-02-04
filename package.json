@@ -1,10 +1,11 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "100 Days of Code bot\r  Contents\r  Markup : *Create a Discord Bot Apllication\r  *Set Up Your Project\r  *Create the Discord Bot\r  *Gateway Events in Discord\r  *Connect to the Database\r  *Environment Variable Validation\r  *The \"interation\" Event\r  *Prepare for Commands\r  *Database Model\r  *Write Bot Commands",
+  "description": "100 Days of Code bot\r  Contents\r  Markup : *Create a Discord Bot Application\r  *Set Up Your Project\r  *Create the Discord Bot\r  *Gateway Events in Discord\r  *Connect to the Database\r  *Environment Variable Validation\r  *The \"interation\" Event\r  *Prepare for Commands\r  *Database Model\r  *Write Bot Commands",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node -r dotenv/config ./prod/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Andreyhuey/Discord-Bot/issues"
   },
-  "homepage": "https://github.com/Andreyhuey/Discord-Bot#readme"
+  "homepage": "https://github.com/Andreyhuey/Discord-Bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord.js": "^13.6.0"
+  }
 }
