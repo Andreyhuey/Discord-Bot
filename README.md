@@ -2,7 +2,7 @@
 
 100 Days of Code bot
  Contents
- Markup : *Create a Discord Bot Apllication
+ Markup : *Create a Discord Bot Application
  *Set Up Your Project
  *Create the Discord Bot
  *Gateway Events in Discord
@@ -12,3 +12,5 @@
  *Prepare for Commands
  *Database Model
  *Write Bot Commands
+
+Wow, its amazing how complicated yet simple this is, i feel like a backend engineer already
