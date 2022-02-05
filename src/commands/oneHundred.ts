@@ -10,7 +10,7 @@ export const oneHundred: Command = {
     data: new SlashCommandBuilder()
     .setName("100")
     .setDescription("Check in for the 100 Days of Code challenge.")
-    .addStringOption(option) => 
+    .addStringOption((option) => 
         option 
          .setName("message")
          .setDescription("This message to go in your 100 Days of Code update.")
