@@ -2,8 +2,7 @@
 
 **100 Days of Code bot**
  
- Contents
- Markup : 
+ Project Contents
  
  - Create a Discord Bot Application
  - Set Up Your Project
@@ -16,4 +15,4 @@
  - Database Model
  - Write Bot Commands
 
-*Currently trying to fix Missing Access in order for it to function*
+*Currently trying to fix Missing Access Error in order for it to function*
